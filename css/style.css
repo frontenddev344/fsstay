@@ -576,7 +576,8 @@ section.below_section p {
 }
 
 .contact_section {
-    padding: 80px 0;
+    padding: 60px 0;
+    background: #faf9f7;
 }
 
 input.form-control.sub_btn {
@@ -616,17 +617,12 @@ input.form-control.sub_btn:hover {
 
 
 .info_left {
-    border-radius: 5px;
-    padding: 30px;
-    box-shadow: 2px 3px 4px #868181;
-    background: url(../img/leftcontact.jpg);
-    background-position: center;
-    background-size: cover;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 /* contact styling end */
