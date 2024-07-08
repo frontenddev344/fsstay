@@ -462,6 +462,7 @@ section.hungary_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 /* hungary banner end */
 /* detail home styling start */
 section.detail_home {
@@ -573,6 +574,61 @@ section.below_section p {
     background-color: rgba(0, 0, 0, 0.55);
     z-index: -1;
 }
+
+.contact_section {
+    padding: 80px 0;
+}
+
+input.form-control.sub_btn {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: #ffff;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+input.form-control.sub_btn:hover {
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.row.email {
+    padding: 0;
+}
+
+.row.email p a {
+    color: #bef5ff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 28px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.info_right {
+    background: var(--primary-color);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.info_left {
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 2px 3px 4px #868181;
+    background: url(../img/leftcontact.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
 /* contact styling end */
 /* privacy styling start */
 .privacy__section {
