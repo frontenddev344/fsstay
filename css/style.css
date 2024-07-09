@@ -408,41 +408,61 @@ section.hotel_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 /* hotel styling end */
 /* affordable styling start */
-#text_wrapper {
-    box-shadow:0 3px 3px 0px rgba(181,149,148,0.5);
-    border-radius:0.32rem;
-    background-color:rgba(0,0,0,0);
-    background-blend-mode:overlay;
-    transition:0.5s ease all;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
-    height:350px;
-    min-width:300px;
-    background-size:cover;
-    background-position:center center;
-  }
-  #text_wrapper span {
+.text_wrapper {
+    box-shadow: 0 3px 3px 0px rgba(181, 149, 148, 0.5);
+    border-radius: 0.32rem;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
     transition: 0.5s ease all;
-    opacity:0;
-    color:white;
-    font-size:1.2rem;
-      letter-spacing:-1rem;
-  }
-  #text_wrapper:hover {
-    transform:translateY(4px);
-    cursor:pointer;
-    box-shadow:0 0px 0px 0px rgba(181,149,148,0.5);
-    background-color:rgba(181,149,148,0.5);
-  }
-  #text_wrapper:hover span {
-    opacity:1;
-    letter-spacing:0.6rem;
-  }
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wrapperone.jpg');
+    height: 350px;
+    min-width: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text_wrapper p {
+    transition: 0.5s ease all;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.text_wrapper:hover {
+    transform: translateY(4px);
+    cursor: pointer;
+    box-shadow: 0 0px 0px 0px rgba(181, 149, 148, 0.5);
+    background-color: rgba(181, 149, 148, 0.5);
+}
+
+.text_wrapper:hover p {
+    opacity: 1;
+
+}
+
+section.affordable {
+    padding: 60px 0;
+}
+
+.text_wrapper h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--main-color);
+}
+
+.text_wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
 /* affordable styling end */
 /* hungary banner start */
 section.hungary_banner {
