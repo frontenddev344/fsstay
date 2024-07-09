@@ -601,11 +601,12 @@ input.form-control.sub_btn:hover {
 }
 
 .row.email p a {
-    color: #bef5ff;
+    color: var(--primary-color);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     line-height: 28px;
     font-size: 15px;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -615,9 +616,12 @@ input.form-control.sub_btn:hover {
     border-radius: 5px;
 }
 
+.left_side_first h3 {
+    margin-top: 20px;
+}
 
 .info_left {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
