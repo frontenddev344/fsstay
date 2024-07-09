@@ -452,12 +452,19 @@ section.hotel_banner::before {
 .text_wrapper.seven {
     background: url(../img/wrapperseven.jpg);
 }
+
 .text_wrapper.Eight {
     background: url(../img/wrappereight.jpg);
 }
+
 .text_wrapper.nine {
     background: url(../img/wrappernine.jpg);
 }
+
+.text_wrapper.ten {
+    background: url(../img/wrapperten.jpg);
+}
+
 .text_wrapper p {
     transition: 0.5s ease all;
     opacity: 0;
