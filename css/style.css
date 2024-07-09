@@ -457,9 +457,8 @@ section.hotel_banner::before {
 
 .text_wrapper:hover p {
     opacity: 1;
-
+    z-index: 999;
 }
-
 section.affordable {
     padding: 60px 0;
 }
@@ -498,6 +497,7 @@ section.affordable {
 .text_wrapper {
     position:relative;
 }
+
 /* affordable styling end */
 /* hungary banner start */
 section.hungary_banner {
