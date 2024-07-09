@@ -388,61 +388,62 @@ section.home_banner::before {
     text-transform: uppercase;
 }
 
-.banner-text h1 span {
-    color: #ff6162;
-}
-
-.banner-img {
-    text-align: center;
-    animation-name: box-jump;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-}
-
-
-
-.banner-img img {
-    max-width: 500px;
-}
-
-.banner-text p {
-    font-size: 16px;
-    color: var(--primary-color);
-    font-weight: 400;
-    line-height: 28px;
-    margin: 0;
-    padding-bottom: 14px;
-}
-
-.banner-btn {
-    margin-top: 30px;
-    animation-name: broshure-animation;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-}
-
-.banner-btn a {
-    background: var(--main-color);
-    padding: 14px 60px;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 6px;
-    text-transform: capitalize;
-    border: 1px solid var(--main-color);
-
-}
-
-.banner-btn a:hover {
-    background-color: transparent;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
-}
 
 /* home page start */
+/* hotel styling start */
+section.hotel_banner {
+    background: url(../img/hotelbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+section.hotel_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
+/* hotel styling end */
+/* affordable styling start */
+#text_wrapper {
+    box-shadow:0 3px 3px 0px rgba(181,149,148,0.5);
+    border-radius:0.32rem;
+    background-color:rgba(0,0,0,0);
+    background-blend-mode:overlay;
+    transition:0.5s ease all;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    height:350px;
+    min-width:300px;
+    background-size:cover;
+    background-position:center center;
+  }
+  #text_wrapper span {
+    transition: 0.5s ease all;
+    opacity:0;
+    color:white;
+    font-size:1.2rem;
+      letter-spacing:-1rem;
+  }
+  #text_wrapper:hover {
+    transform:translateY(4px);
+    cursor:pointer;
+    box-shadow:0 0px 0px 0px rgba(181,149,148,0.5);
+    background-color:rgba(181,149,148,0.5);
+  }
+  #text_wrapper:hover span {
+    opacity:1;
+    letter-spacing:0.6rem;
+  }
+  
+/* affordable styling end */
 /* hungary banner start */
 section.hungary_banner {
     background: url(../img/hungarybanner.jpg);
