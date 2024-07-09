@@ -84,7 +84,6 @@ h2 {
     color: var(--secondary-color);
     line-height: 0.65;
 }
-
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -101,7 +100,6 @@ h2 {
     display: inline-flex;
     align-items: start;
 }
-
 .navbar {
     padding: 0px 15px;
     display: flex;
@@ -244,20 +242,6 @@ header.sticky {
     width: 32px;
 }
 
-ul.subnav {
-    display: block;
-    position: absolute;
-    top: 100%;
-    width: 240px;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
-    opacity: 1;
-    visibility: hidden;
-    transition: all 0.2s linear;
-    transform: translateY(0px);
-    z-index: 1;
-}
 
 /* navbar stylng end */
 a.button_main {
