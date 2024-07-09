@@ -428,6 +428,19 @@ section.hotel_banner::before {
     background-position: center center;
 }
 
+.text_wrapper.two {
+    background: url('../img/wrappertwo.jpg');
+
+}
+
+.text_wrapper.three {
+    background: url(../img/wrapperthree.jpg);
+}
+
+.text_wrapper.four {
+    background: url(../img/wrapperfour.jpg);
+}
+
 .text_wrapper p {
     transition: 0.5s ease all;
     opacity: 0;
@@ -466,6 +479,10 @@ section.affordable {
 
 .text_wrapper.five {
     height: 720px;
+    background: url(../img/wrapperfive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* affordable styling end */
