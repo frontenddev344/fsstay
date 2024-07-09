@@ -439,7 +439,7 @@ section.hotel_banner::before {
     transform: translateY(4px);
     cursor: pointer;
     box-shadow: 0 0px 0px 0px rgba(181, 149, 148, 0.5);
-    background-color: rgba(181, 149, 148, 0.5);
+    background-color: #eae7dc3d;
 }
 
 .text_wrapper:hover p {
@@ -462,6 +462,10 @@ section.affordable {
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.text_wrapper.five {
+    height: 720px;
 }
 
 /* affordable styling end */
