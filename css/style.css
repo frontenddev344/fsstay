@@ -441,6 +441,19 @@ section.hotel_banner::before {
     background: url(../img/wrapperfour.jpg);
 }
 
+.text_wrapper.six {
+    background: url(../img/wrappersix.jpg);
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text_wrapper.seven {
+    background: url(../img/wrapperseven.jpg);
+}
+
+
 .text_wrapper p {
     transition: 0.5s ease all;
     opacity: 0;
@@ -459,12 +472,14 @@ section.hotel_banner::before {
     opacity: 1;
     z-index: 999;
 }
+
 .text_wrapper span a {
     transition: 0.5s ease all;
     opacity: 0;
     color: white;
     font-size: 16px;
 }
+
 .text_wrapper:hover span a {
     opacity: 1;
     position: relative;
@@ -473,6 +488,7 @@ section.hotel_banner::before {
     text-decoration: underline;
     color: #fff;
 }
+
 section.affordable {
     padding: 60px 0;
 }
@@ -498,6 +514,7 @@ section.affordable {
     background-size: cover;
     background-position: center center;
 }
+
 .text_wrapper::before {
     position: absolute;
     content: '';
@@ -509,7 +526,7 @@ section.affordable {
 }
 
 .text_wrapper {
-    position:relative;
+    position: relative;
 }
 
 /* affordable styling end */
