@@ -469,6 +469,7 @@ section.affordable {
     margin: 0;
     padding-bottom: 10px;
     color: var(--main-color);
+    z-index: 1;
 }
 
 .text_wrapper {
@@ -484,7 +485,19 @@ section.affordable {
     background-size: cover;
     background-position: center center;
 }
+.text_wrapper::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
 
+.text_wrapper {
+    position:relative;
+}
 /* affordable styling end */
 /* hungary banner start */
 section.hungary_banner {
