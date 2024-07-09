@@ -583,17 +583,17 @@ section.below_section p {
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
-    background-color: var(--secondary-color);
-    color: #ffff;
-    border: 1px solid transparent;
+    background-color: var(--main-color);
+    color: #000;
+    border: 1px solid var(--main-color);
     transition: all 0.5s;
 }
 
 input.form-control.sub_btn:hover {
     font-weight: 500;
     background-color: transparent;
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
 }
 
 .row.email {
