@@ -561,8 +561,14 @@ section.affordable {
     background-position: center;
     height: 720px;
 }
-.text_wrapper.alert_six {
+.text_wrapper.alert_four {
     background: url(../img/lisa.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.text_wrapper.alert_five {
+    background: url(../img/lavender.jpg);
     background-size: cover;
     background-position: center;
 
