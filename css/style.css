@@ -657,6 +657,16 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.next3 {
+    background: url(../img/intercontinent.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.next4 {
+    background: url(../img/intercontinent.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
