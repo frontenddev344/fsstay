@@ -510,6 +510,13 @@ section.affordable {
     
    
 }
+.text_wrapper.eco_nine{
+    background: url(../img/club.jpg);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
 /* eco styling end */
 /* hungary banner start */
 section.hungary_banner {
