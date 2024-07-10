@@ -553,13 +553,19 @@ section.affordable {
     background: url(../img/lupa.jpg);
     background-size: cover;
     background-position: center;
-    height: 720px;
+   
 }
 .text_wrapper.alert_five {
     background: url(../img/castle.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
+}
+.text_wrapper.alert_six {
+    background: url(../img/lisa.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
 /* alert styling end */
