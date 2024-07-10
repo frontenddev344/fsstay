@@ -629,6 +629,12 @@ section.affordable {
     background-position: center;
    
 }
+.text_wrapper.casino_nine{
+    background: url(../img/novotel.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
