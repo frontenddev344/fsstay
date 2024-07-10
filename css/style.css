@@ -595,6 +595,11 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.casino_three {
+    background: url(../img/lasvegas.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
