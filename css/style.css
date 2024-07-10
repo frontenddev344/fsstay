@@ -573,7 +573,12 @@ section.affordable {
     background-position: center;
 
 }
+.text_wrapper.alert_seven {
+    background: url(../img/bust.jpg);
+    background-size: cover;
+    background-position: center;
 
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
