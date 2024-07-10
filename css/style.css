@@ -652,6 +652,11 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.next2 {
+    background: url(../img/radisson.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
