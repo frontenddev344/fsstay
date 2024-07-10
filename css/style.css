@@ -544,7 +544,11 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
-
+.text_wrapper.alert_two {
+    background: url(../img/kvi.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
