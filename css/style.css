@@ -500,7 +500,14 @@ section.affordable {
     background: url(../img/kolphing.jpg);
     background-size: cover;
     background-position: center;
-    height: 720px;
+    
+   
+}
+.text_wrapper.eco_eight{
+    background: url(../img/villa.jpg);
+    background-size: cover;
+    background-position: center;
+    
    
 }
 /* eco styling end */
