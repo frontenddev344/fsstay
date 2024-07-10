@@ -549,6 +549,19 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.alert_three {
+    background: url(../img/lupa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+.text_wrapper.alert_five {
+    background: url(../img/castle.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
