@@ -611,6 +611,24 @@ section.affordable {
     background-position: center;
     height: 720px;
 }
+.text_wrapper.casino_six{
+    background: url(../img/hilton.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+.text_wrapper.casino_seven{
+    background: url(../img/kempin.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.text_wrapper.casino_Eight{
+    background: url(../img/danubius.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
