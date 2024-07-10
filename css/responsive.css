@@ -1,7 +1,7 @@
 @media screen and (max-width:1380px) {}
 
 @media screen and (max-width:1200px) {
-   
+
     .box1 h2 {
         margin-top: 10px;
     }
@@ -110,21 +110,30 @@
         margin-left: 0px;
         height: auto;
     }
+
     .single_footer {
         margin-bottom: 50px;
     }
+
     .single_footer h4 {
         margin-bottom: 20px;
     }
+
     .single_footer p {
         margin-top: 0;
     }
 }
 
 @media (max-width: 767px) {
+    .banner-text h1 {
+        font-size: 35px;
+
+    }
+
     a.button_main {
         padding: 10px 20px 10px 20px;
     }
+
     .casino {
         margin-bottom: 40px;
     }
@@ -158,9 +167,11 @@
     .casino_heading.overlay span {
         font-size: 60px;
     }
+
     .single_footer h4 {
         margin-bottom: 10px;
     }
+
     .single_footer {
         margin-bottom: 20px;
     }
@@ -230,18 +241,23 @@
         gap: 10px;
         justify-content: center;
     }
+
     .casino_heading.overlay span {
         font-size: 45px;
     }
+
     .casino-img {
         height: 250px;
     }
+
     .footer .container {
         padding: 20px;
     }
+
     .detail_img img {
         height: 300px;
     }
+
     .hotel_img img {
         height: 250px;
     }
