@@ -453,6 +453,57 @@ section.affordable {
 }
 
 /* affordable styling end */
+/* eco styling start */
+.text_wrapper.eco_one{
+    background: url(../img/greenhotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.eco_one{
+    background: url(../img/greenhotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.eco_two{
+    background: url(../img/golf.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.text_wrapper.eco_three{
+    background: url(../img/avalon.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.text_wrapper.eco_four{
+    background: url(../img/csaszar.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.text_wrapper.eco_five{
+    background: url(../img/hunguest.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+   
+}
+.text_wrapper.eco_six{
+    background: url(../img/meeting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+   
+}
+.text_wrapper.eco_seven{
+    background: url(../img/kolphing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+   
+}
+/* eco styling end */
 /* hungary banner start */
 section.hungary_banner {
     background: url(../img/hungarybanner.jpg);
