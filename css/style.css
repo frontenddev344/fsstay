@@ -544,129 +544,152 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.alert_two {
     background: url(../img/kvi.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.alert_three {
     background: url(../img/lupa.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
+
 .text_wrapper.alert_five {
     background: url(../img/castle.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
 }
+
 .text_wrapper.alert_four {
     background: url(../img/lisa.jpg);
     background-size: cover;
     background-position: center;
 
 }
+
 .text_wrapper.alert_six {
     background: url(../img/lavender.jpg);
     background-size: cover;
     background-position: center;
 
 }
+
 .text_wrapper.alert_seven {
     background: url(../img/bust.jpg);
     background-size: cover;
     background-position: center;
 
 }
+
 .text_wrapper.alert_Eight {
     background: url(../img/street.jpg);
     background-size: cover;
     background-position: center;
 
 }
+
 .text_wrapper.casino_one {
     background: url(../img/corinthia.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.casino_two {
     background: url(../img/bridge.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.casino_three {
     background: url(../img/lasvegas.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.casino_four {
     background: url(../img/ensana.jpg);
     background-size: cover;
     background-position: center;
 }
-.text_wrapper.casino_five{
+
+.text_wrapper.casino_five {
     background: url(../img/aqua.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
 }
-.text_wrapper.casino_six{
+
+.text_wrapper.casino_six {
     background: url(../img/hilton.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
 }
-.text_wrapper.casino_seven{
+
+.text_wrapper.casino_seven {
     background: url(../img/kempin.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.casino_Eight{
+
+.text_wrapper.casino_Eight {
     background: url(../img/danubius.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.casino_nine{
+
+.text_wrapper.casino_nine {
     background: url(../img/novotel.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.casino_ten{
+
+.text_wrapper.casino_ten {
     background: url(../img/continent.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.casino_ten{
+
+.text_wrapper.casino_ten {
     background: url(../img/continent.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
+
 .text_wrapper.next1 {
     background: url(../img/mercure.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.next2 {
     background: url(../img/radisson.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.next3 {
     background: url(../img/intercontinent.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.next4 {
     background: url(../img/intercontinent.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.next5 {
     background: url(../img/exe.jpg);
     background-size: cover;
@@ -694,7 +717,22 @@ section.hungary_banner::before {
     z-index: 0;
     top: 0%;
 }
+.box {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    gap: 200px;
+}
 
+.box div {
+    width: 100%;
+    background: #f7f0ea;
+    height: 300px;
+}
 /* hungary banner end */
 /* detail home styling start */
 section.detail_home {
@@ -768,6 +806,7 @@ section.detail_home {
 
 .pages_section {
     padding: 50px 0;
+    position: relative;
 }
 
 .img_box img {
@@ -1266,39 +1305,53 @@ a.btn.btn-primary.setting-cookies:hover {
 /* 
 /cookie end/ */
 /* search styling start */
-#search-wrapper {
+.search-section {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s all ease-in-out;
+}
+
+.search-box {
+    background: gray;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.276);
-    align-items: stretch;
-    border-radius: 50px;
-    background-color: #fff;
-    overflow: hidden;
-    max-width: 400px;
-    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.273);
-
+    justify-content: center;
+    align-items: center;
 }
 
-#search {
-    border: none;
-    width: 350px;
-    font-size: 15px;
+.search-input {
+    width: 70%;
+    border: 2px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-#search:focus {
-    outline: none;
-}
-
-.search-icon {
-    margin: 10px;
-    color: rgba(0, 0, 0, 0.564);
-}
-
-#search-button {
+.input-textarea {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    z-index: 2;
     border: none;
     cursor: pointer;
-    color: #fff;
-    background-color: var(--primary-color);
-    padding: 0px 10px;
 }
+
+span {
+    margin-right: 10px;
+}
+
+.open {
+    opacity: 1;
+    z-index: 0;
+    transition: 0.5s all ease-in-out;
+}
+
 
 /* search styling end */

@@ -42,3 +42,8 @@ $(document).ready(function () {
         header.toggleClass("sticky", $(window).scrollTop() > 0);
     });
 });
+$(document).ready(function() {
+    $(".search").click(function() {
+      $(".search-section").toggleClass("open");
+    });
+  });
