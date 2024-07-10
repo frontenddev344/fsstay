@@ -641,6 +641,17 @@ section.affordable {
     background-position: center;
    
 }
+.text_wrapper.casino_ten{
+    background: url(../img/continent.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.text_wrapper.next1 {
+    background: url(../img/mercure.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
