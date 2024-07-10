@@ -23,9 +23,11 @@ a {
     padding: 0;
     font-family: "Jost", sans-serif;
 }
-h2{
+
+h2 {
     font-family: "Kaushan Script", cursive;
 }
+
 h1,
 
 h3,
@@ -454,77 +456,96 @@ section.affordable {
 
 /* affordable styling end */
 /* eco styling start */
-.text_wrapper.eco_one{
+.text_wrapper.eco_one {
     background: url(../img/greenhotel.jpg);
     background-size: cover;
     background-position: center;
 }
-.text_wrapper.eco_one{
+
+.text_wrapper.eco_one {
     background: url(../img/greenhotel.jpg);
     background-size: cover;
     background-position: center;
 }
-.text_wrapper.eco_two{
+
+.text_wrapper.eco_two {
     background: url(../img/golf.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.eco_three{
+
+.text_wrapper.eco_three {
     background: url(../img/avalon.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.eco_four{
+
+.text_wrapper.eco_four {
     background: url(../img/csaszar.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
-.text_wrapper.eco_five{
+
+.text_wrapper.eco_five {
     background: url(../img/hunguest.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
-   
+
 }
-.text_wrapper.eco_six{
+
+.text_wrapper.eco_six {
     background: url(../img/meeting.jpg);
     background-size: cover;
     background-position: center;
-    height: 720px;
-   
+
+
 }
-.text_wrapper.eco_seven{
+
+.text_wrapper.eco_seven {
     background: url(../img/kolphing.jpg);
     background-size: cover;
     background-position: center;
-    
-   
+
+
 }
-.text_wrapper.eco_eight{
+
+.text_wrapper.eco_eight {
     background: url(../img/villa.jpg);
     background-size: cover;
     background-position: center;
-    
-   
+
+
 }
-.text_wrapper.eco_nine{
+
+.text_wrapper.eco_nine {
     background: url(../img/club.jpg);
     background-size: cover;
     background-position: center;
-    
-   
+
+
 }
-.text_wrapper.eco_ten{
+
+.text_wrapper.eco_ten {
     background: url(../img/unio.jpg);
     background-size: cover;
     background-position: center;
-    
-   
+
+
 }
+
 /* eco styling end */
+/* alert styling start */
+.text_wrapper.alert_one {
+    background: url(../img/nomad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
     background: url(../img/hungarybanner.jpg);
