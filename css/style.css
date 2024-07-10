@@ -600,6 +600,16 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.casino_four {
+    background: url(../img/ensana.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.casino_five{
+    background: url(../img/aqua.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
