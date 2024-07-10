@@ -585,6 +585,16 @@ section.affordable {
     background-position: center;
 
 }
+.text_wrapper.casino_one {
+    background: url(../img/corinthia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.casino_two {
+    background: url(../img/bridge.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* alert styling end */
 /* hungary banner start */
 section.hungary_banner {
