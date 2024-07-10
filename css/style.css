@@ -538,6 +538,7 @@ section.detail_home {
 
 .pages_section .row {
     row-gap: 30px;
+    justify-content: center;
 }
 
 .pages_section {
