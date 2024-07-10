@@ -724,13 +724,13 @@ section.hungary_banner::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80%;
+    height: 90%;
     gap: 200px;
 }
 
 .box div {
     width: 100%;
-    background: #f7f0ea;
+    background: #eae7dc;
     height: 300px;
 }
 /* hungary banner end */
