@@ -1031,3 +1031,40 @@ a.btn.btn-primary.setting-cookies:hover {
 
 /* 
 /cookie end/ */
+/* search styling start */
+#search-wrapper {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+    align-items: stretch;
+    border-radius: 50px;
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 400px;
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.273);
+
+}
+
+#search {
+    border: none;
+    width: 350px;
+    font-size: 15px;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.search-icon {
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.564);
+}
+
+#search-button {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 0px 10px;
+}
+
+/* search styling end */
