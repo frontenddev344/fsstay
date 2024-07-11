@@ -801,6 +801,13 @@ section.detail_home {
 
 /* detail home styling end */
 /* explore section styling start */
+.pages img:hover {
+    filter: brightness(0.5);
+}
+
+.pages img {
+    transition: all 0.5s;
+}
 
 .pages h3 {
     font-size: 21px;
@@ -1349,6 +1356,7 @@ a.btn.btn-primary.setting-cookies:hover {
     margin: 0 auto;
     border: 1px solid var(--primary-color);
 }
+
 .popup-content button:hover {
     background-color: var(--main-color);
     color: var(--primary-color);
