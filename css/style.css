@@ -139,10 +139,6 @@ h2 {
     color: #e4e2de;
 }
 
-.active {
-    border-bottom: 2px solid var(--main-color);
-    color: var(--main-color) !important;
-}
 
 
 header {
