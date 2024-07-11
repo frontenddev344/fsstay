@@ -1,4 +1,8 @@
-@media screen and (max-width:1380px) {}
+@media screen and (max-width:1399px) {
+    .text_wrapper {
+        height: 350px !important;
+    }
+}
 
 @media screen and (max-width:1200px) {
 
