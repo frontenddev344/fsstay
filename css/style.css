@@ -556,6 +556,23 @@ section.eco_banner::before {
 
 /* eco styling end */
 /* alert styling start */
+section.alert_banner {
+    background: url(../img/alertbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+section.alert_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
 .text_wrapper.alert_one {
     background: url(../img/nomad.jpg);
     background-size: cover;
