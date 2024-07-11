@@ -473,6 +473,7 @@ section.eco_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 .text_wrapper.eco_one {
     background: url(../img/greenhotel.jpg);
     background-size: cover;
@@ -573,6 +574,7 @@ section.alert_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 .text_wrapper.alert_one {
     background: url(../img/nomad.jpg);
     background-size: cover;
@@ -732,6 +734,26 @@ section.alert_banner::before {
 }
 
 /* alert styling end */
+/* casino styling start */
+section.casino_banner {
+    background: url(../img/casinobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+section.casino_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
+
+/* casino styling end */
 /* hungary banner start */
 section.hungary_banner {
     background: url(../img/hungarybanner.jpg);
@@ -751,6 +773,7 @@ section.hungary_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 .box {
     position: absolute;
     inset: 0;
@@ -767,6 +790,7 @@ section.hungary_banner::before {
     background: #eae7dc;
     height: 300px;
 }
+
 /* hungary banner end */
 /* detail home styling start */
 section.detail_home {
