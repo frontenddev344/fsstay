@@ -1124,14 +1124,6 @@ section.terms_conditons h3 {
     font-size: 20px;
 }
 
-/* .single_footer h4::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 40px;
-    background: #fff;
-    margin-top: 20px;
-} */
 
 .single_footer p {
     color: var(--primary-color);
@@ -1181,58 +1173,6 @@ section.terms_conditons h3 {
     padding: 0;
 }
 
-/*START NEWSLETTER CSS*/
-.Sign {
-    display: block;
-    position: relative;
-    margin-top: 15px;
-    width: 100%;
-}
-
-.Sign__input {
-    background-color: #fff;
-    border: medium none;
-    border-radius: 5px;
-    color: #333;
-    display: block;
-    font-size: 15px;
-    font-weight: 500;
-    height: 60px;
-    letter-spacing: 0.4px;
-    margin: 0;
-    padding: 0 150px 0 20px;
-    text-align: center;
-    text-transform: capitalize;
-    outline: none;
-    width: 100%;
-}
-
-
-.Sign__btn {
-    background-color: transparent;
-    border-radius: 0 25px 25px 0;
-    color: var(--primary-color);
-    cursor: pointer;
-    display: block;
-    font-size: 20px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 60px;
-}
-
-.Sign__btn i {
-    transition: all 0.3s ease 0s;
-}
-
-
-.Sign__btn:hover i {
-    color: var(--primary-color);
-}
-
-
-/*END NEWSLETTER CSS*/
 
 /*START SOCIAL PROFILE CSS*/
 .social_profile {
