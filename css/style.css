@@ -306,7 +306,7 @@ section.home_banner::before {
 /* home page start */
 /* hotel styling start */
 section.hotel_banner {
-    background: url(../img/hotelbanner.jpg);
+    background: url(../img/affordable.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
