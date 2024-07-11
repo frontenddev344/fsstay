@@ -43,6 +43,10 @@
     .single_footer p {
         margin-top: 0;
     }
+    .contact_section {
+        padding: 40px 0;
+       
+    }
 }
 
 @media (max-width: 767px) {
@@ -67,7 +71,7 @@
 
 
     .form-control {
-        width: 70%;
+        width: 100%;
 
     }
 
