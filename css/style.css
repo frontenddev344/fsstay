@@ -1374,11 +1374,11 @@ a.btn.btn-primary.setting-cookies:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 330px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
 }
 
@@ -1396,7 +1396,7 @@ a.btn.btn-primary.setting-cookies:hover {
 
 .popup-content button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     border-radius: 5px;
@@ -1404,13 +1404,13 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 .popup-content button:hover {
-    background-color: #0056b3;
+    background-color: var(--primary-color);
 }
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 7px;
     cursor: pointer;
     font-size: 20px;
 }
