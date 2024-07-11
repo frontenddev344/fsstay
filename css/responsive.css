@@ -2,6 +2,15 @@
     .text_wrapper {
         height: 350px !important;
     }
+    .popup-content input {
+       
+        width: 100%;
+      
+    }
+    .popup-content button {
+        width: 100%;
+        
+    }
 }
 
 @media screen and (max-width:1200px) {
