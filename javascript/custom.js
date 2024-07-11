@@ -43,3 +43,23 @@ $(document).ready(function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const searchIcon = document.getElementById("search-icon");
+    const popup = document.getElementById("search-popup");
+    const close = document.querySelector(".close");
+
+    searchIcon.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.style.display = "block";
+    });
+
+    close.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+
+    window.addEventListener("click", function(event) {
+        if (event.target == popup) {
+            popup.style.display = "none";
+        }
+    });
+});
