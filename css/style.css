@@ -83,7 +83,7 @@ h2 {
 .logo img {
     max-width: 160px;
 }
-
+ 
 .dropbtn i {
     margin-left: 8px;
     color: var(--main-color);
@@ -95,18 +95,15 @@ h2 {
     color: white;
     border: none;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--white);
     text-transform: capitalize;
-    font-weight: 600;
     font-size: inherit !important;
     position: relative;
     display: inline-flex;
     align-items: start;
 }
-
+a#dropbtn {
+    font-size: 14px !important;
+}
 .navbar {
     padding: 0px 15px;
     display: flex;
