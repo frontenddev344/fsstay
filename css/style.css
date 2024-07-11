@@ -1096,6 +1096,10 @@ section.terms_conditons h3 {
     padding: 40px 0;
 }
 
+.footer_logo img {
+    width: 160px;
+    mix-blend-mode: difference;
+}
 
 .single_footer img {
     height: 130px;
@@ -1353,4 +1357,5 @@ a.btn.btn-primary.setting-cookies:hover {
     cursor: pointer;
     font-size: 20px;
 }
+
 /* search styling end */
