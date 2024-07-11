@@ -127,7 +127,7 @@ h2 {
 }
 
 .navlink ul li a {
-    color: var(--main-color);
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -136,7 +136,7 @@ h2 {
 }
 
 .navlink ul li a:hover {
-    color: var(--main-color);
+    color: #e4e2de;
 }
 
 .active {
@@ -220,17 +220,10 @@ ul.subnav {
 
 }
 
-.navlink ul li a {
-    color: var(--main-color);
-}
-
-.navlink ul li a:hover {
-    color: #fff;
-}
 
 .active {
-    border-bottom: 2px solid #fff;
-    color: #fff !important;
+    border-bottom: 2px solid #eae7dc;
+    color: #eae7dc !important;
 }
 
 .navlink ul li {
