@@ -2,14 +2,16 @@
     .text_wrapper {
         height: 350px !important;
     }
+
     .popup-content input {
-       
+
         width: 100%;
-      
+
     }
+
     .popup-content button {
         width: 100%;
-        
+
     }
 }
 
@@ -66,7 +68,7 @@
 @media (max-width: 767px) {
 
     .footer_logo img {
-        
+
         margin-bottom: 30px;
     }
 
@@ -103,6 +105,10 @@
 }
 
 @media (max-width: 575px) {
+    .popup {
+        width: 80%;
+    }
+
     body.toggle .navlink {
         width: 100%;
 
