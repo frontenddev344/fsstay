@@ -1348,7 +1348,7 @@ section.terms_conditons h3 {
 
 a.btn.btn-primary.setting-cookies {
     background: transparent;
-    color: var(--primary-color);
+    color: #000;
     text-decoration: underline;
     padding-bottom: 0;
     margin-right: 14px;

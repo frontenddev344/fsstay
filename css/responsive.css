@@ -6,9 +6,7 @@
 
 @media screen and (max-width:1200px) {
 
-    .box1 h2 {
-        margin-top: 10px;
-    }
+    
 
     .social_profile ul li a {
         font-size: 18px;
@@ -22,14 +20,7 @@
         padding-top: 10px;
     }
 
-    .same_box h1 {
-        font-size: 35px;
-    }
-
-    .same_box p {
-        font-size: 16px;
-
-    }
+   
 
 }
 
@@ -74,25 +65,10 @@
         padding: 30px 10px;
     }
 
-    .home_detail {
-        padding: 20px 0;
-    }
-
-    .three_steps {
-        padding: 20px 0;
-    }
 
     .form-control {
         width: 70%;
 
-    }
-
-    .banner_head:after {
-        width: 41%;
-    }
-
-    .casino_heading.overlay span {
-        font-size: 60px;
     }
 
     .single_footer h4 {
