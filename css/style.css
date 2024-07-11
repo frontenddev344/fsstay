@@ -1149,7 +1149,6 @@ section.terms_conditons h3 {
     transition: all 0.3s ease 0s;
     line-height: 28px;
     font-size: 15px;
-    text-transform: capitalize;
 }
 
 .single_footer ul li a:hover {
