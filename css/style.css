@@ -456,6 +456,23 @@ section.affordable {
 
 /* affordable styling end */
 /* eco styling start */
+section.eco_banner {
+    background: url(../img/ecobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+section.eco_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
 .text_wrapper.eco_one {
     background: url(../img/greenhotel.jpg);
     background-size: cover;
