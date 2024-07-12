@@ -82,7 +82,7 @@ h2 {
 .logo img {
     max-width: 160px;
 }
- 
+
 .dropbtn i {
     margin-left: 8px;
     color: var(--main-color);
@@ -100,9 +100,11 @@ h2 {
     display: inline-flex;
     align-items: start;
 }
+
 a#dropbtn {
     font-size: 14px !important;
 }
+
 .navbar {
     padding: 0px 15px;
     display: flex;
@@ -497,6 +499,7 @@ section.eco_banner::before {
     background-size: cover;
     background-position: center;
     height: 720px;
+    justify-content: center;
 
 }
 
@@ -504,6 +507,7 @@ section.eco_banner::before {
     background: url(../img/meeting.jpg);
     background-size: cover;
     background-position: center;
+    justify-content: center;
 
 
 }
@@ -538,6 +542,10 @@ section.eco_banner::before {
     background-position: center;
 
 
+}
+
+.text_wrapper.eco_last {
+    justify-content: center;
 }
 
 /* eco styling end */
