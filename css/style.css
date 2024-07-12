@@ -344,6 +344,7 @@ section.hotel_banner::before {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    justify-content: center;
 }
 
 .text_wrapper.seven {
@@ -421,6 +422,7 @@ section.affordable {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    justify-content: center;
 }
 
 .text_wrapper::before {
