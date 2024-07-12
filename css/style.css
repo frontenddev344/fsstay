@@ -1080,6 +1080,7 @@ section.terms_conditons h3 {
 
 .banner__text h1 {
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 .terms_conditons ul li {
