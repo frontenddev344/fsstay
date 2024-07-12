@@ -728,6 +728,7 @@ section.alert_banner::before {
     background-size: cover;
     background-position: center;
     height: 720px;
+    justify-content: center;
 }
 
 /* alert styling end */
@@ -1075,6 +1076,10 @@ section.terms_conditons h3 {
     color: var(--main-color);
     width: 80%;
     transform: translate(-50%, -50%);
+}
+
+.banner__text h1 {
+    font-size: 50px;
 }
 
 .terms_conditons ul li {
