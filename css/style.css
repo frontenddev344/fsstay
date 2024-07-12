@@ -546,6 +546,9 @@ section.eco_banner::before {
 
 .text_wrapper.eco_last {
     justify-content: center;
+    background: url(../img/hotelhanglot.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* eco styling end */
