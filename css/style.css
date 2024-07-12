@@ -910,16 +910,17 @@ section.below_section p {
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
-    background-color: #fff;
-    color: #000;
+    background-color: transparent;
+    color: #fff;
     border: 1px solid #fff;
     transition: all 0.5s;
 }
 
 input.form-control.sub_btn:hover {
-    background-color: transparent;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
+
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid #fff;
 }
 
 .row.email {
