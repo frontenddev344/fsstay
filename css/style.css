@@ -592,6 +592,7 @@ section.alert_banner::before {
     background-size: cover;
     background-position: center;
     height: 720px;
+    justify-content: center;
 }
 
 .text_wrapper.alert_four {
@@ -605,6 +606,7 @@ section.alert_banner::before {
     background: url(../img/lavender.jpg);
     background-size: cover;
     background-position: center;
+    justify-content: center;
 
 }
 
