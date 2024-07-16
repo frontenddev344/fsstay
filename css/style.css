@@ -1054,6 +1054,7 @@ section.privacy-policy h3 {
 
 section.terms_conditons h3 {
     margin-top: 10px;
+    font-size: 22px;
 }
 
 .terms_conditons a {
@@ -1089,12 +1090,17 @@ section.terms_conditons h3 {
 .terms_conditons ul li {
     list-style-type: disc;
     margin-left: 15px;
+    font-weight: 400;
+}
+
+.terms_conditons p {
+    font-weight: 400;
 }
 
 .terms_conditons ol li {
     margin-left: -9px;
     list-style-type: unset;
-
+    font-weight: 400;
 }
 
 /* terms styling end */
