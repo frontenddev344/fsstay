@@ -1384,3 +1384,9 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 /* search styling end */
+
+
+
+.detail_text p {
+    margin-bottom: 8px;
+}
